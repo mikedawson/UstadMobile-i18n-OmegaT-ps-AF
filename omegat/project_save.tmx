@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.2.0_0_10666" segtype="sentence" srclang="EN-US"/>
+  <body>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Ustad Mobile</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>‫أستاد موبايل‬</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Login</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ننوتون</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Error</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تېروتنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Error registering new user:</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تیروتنه د نوی کارونکی په ثبت</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Registering</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>شاملونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Wrong username/password: try again.</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>غلطه کارونکی نوم/شفر: بیا کوښښ وکړی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Network error: please check you are online.</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>چک وکری په کرښه یی د جال تیروتنه! مهربانی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Authenticating</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تصدیق كول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sorry: Error loading %s :</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بخښنه! تیروتنه په بارولو کښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رالېښل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Downloaded</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>دانلوډ شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>OK</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>صحیح</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Cancel</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>لغو کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ړنګول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sorry!</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بخښنه!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Error loading catalog:</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تیروتنه د اساسی لست په بارولو کښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Loading</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بارونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Error opening file:</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تیروتنه د دوتنه په پرانيستل کښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download in progress...</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رالیښل په پرمخیون ده...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Save to...</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>خوندي/ثبت کړی په...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>All users</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټول کارونکی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Only me</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>یوازی زه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>My courses</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>زما کورسونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>On this device</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په دی وزله کښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Logout</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>وتل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>About</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په اړه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download for...</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رالیښل د...لپاره</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Refresh</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تاندول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Download all</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رالیښل تول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Nothing selected!</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>هیڅ تاکلی شوی نده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Next</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Back</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>شا</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Username</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کارن نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Password</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تیرنویی/شفر</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>New password</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نوی تېرنويى</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Phone memory</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د تیلیفون یاد</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Memory card</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د یاد کارت</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Device</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>وزله</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Register</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نومکښنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Phone number</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د تیلیفون شمیره</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Male</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نارینه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Female</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>شځینه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Sorry!</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بخښنه!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Could not open file.</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>دوتنه خلاص نه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>امستن/تنظیمات</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>System Language</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د سیستم/غونډال ژبه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>انګلیسی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Arabic</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>عربی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>My Resources</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رالیښل شوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Browse Libraries</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د منځپانګه کتنی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Choose Format:</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بڼه انتخاب وکړی:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Language</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ژبه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Advanced</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پرمخ تللی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Server</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پالنګر</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Optional</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>اختياري</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Email</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ایمیل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Signup Code</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کد</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Home</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کور پاڼه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Add</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Please enter phone number</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په مهربانۍ سره د ټېلفون شمېره ننباسئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټېلفون</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Tablet</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تبلټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Please enter name</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په مهربانۍ سره نوم ننباسئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Attendance</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>حاضري</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Processing</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بهیرونګ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Classes</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټولګي</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Exams</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>آزموینې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Reports</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>راپورونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Account</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>حساب</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Forgot password</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>له سیسټم څخه وتل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Connection</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>اتصال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Notifications</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>اعلان</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>General Connection</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>عمومي اتصال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Account</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>حساب</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Data usage</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د معلوماتو کارونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Modify</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بدلول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پرانیستل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Waiting for sender</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د استونکي په انتظار</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>You can share this app offline. On the device that you want to share with: \n1.</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کولای شئ دا اپلکېشن په آنلاین توګه شریک کړئ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Open Settings &gt; Bluetooth Settings.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>\n2. Make sure that the device is visible.</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>هغه آله چې تاسو یې غواړئ د هغې په واسطه یې شریک کړئ:\n تنظیمات پرانیسئ &lt; د بلوتوث تنظیمات\n ډاډ ترلاسه کړئ چې آله د لیدو وړ ده.\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Preparing</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>چمتو کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Login successful</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بریالی ننوتل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Registration successful</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بریالۍ نوم لیکنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>On the other device, open the app, and select receive from the top right menu. \n2.</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په بلې آله کې، اپلکېشن پرانیسئ، د مینو پورته ښي اړخه څخه د ترلاسه کول وټاکئ.\n د لاندې لیسټ څخه بله آله انتخاب کړئ:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Select the other device from the list below:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Cancel invite</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د بلني لغوه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Inviting</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د بلنې په حال کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>This field is required</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>دا برخه لازمه ده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Accept</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>منل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Decline</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رد کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Send in zip file</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د زېپ په فایل کې ولېږئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="EN-US">
+        <seg>Also available in</seg>
+      </tuv>
+      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>همدارنګه د لاسترسي وړ دی</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
