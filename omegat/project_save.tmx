@@ -2717,16 +2717,16 @@
       <tuv lang="EN-US">
         <seg>Subscript</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235519Z" creationid="GMH" creationdate="20190711T235519Z">
-        <seg>فرعی سکریپټ</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T151508Z" creationid="GMH" creationdate="20190711T235519Z">
+        <seg>د خط لاندی متن</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>Superscript</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235505Z" creationid="GMH" creationdate="20190711T235505Z">
-        <seg>لوی سکرپټ</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T151441Z" creationid="GMH" creationdate="20190711T235505Z">
+        <seg>لوی متن</seg>
       </tuv>
     </tu>
     <tu>
