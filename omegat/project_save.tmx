@@ -1,758 +1,3358 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE tmx SYSTEM "tmx14.dtd">
-<tmx version="1.4">
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="4.2.0_0_10666" segtype="sentence" srclang="EN-US"/>
   <body>
+<!-- Default translations -->
     <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Ustad Mobile</seg>
+      <tuv lang="EN-US">
+        <seg>"No app found to open file"</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>‫أستاد موبايل‬</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234131Z" creationid="GMH" creationdate="20190711T234131Z">
+        <seg>"د فایل د خلاصولو لپاره اپلیکیشن نشته"</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Login</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ننوتون</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Error</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تېروتنه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Error registering new user:</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تیروتنه د نوی کارونکی په ثبت</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Registering</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>شاملونه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Wrong username/password: try again.</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>غلطه کارونکی نوم/شفر: بیا کوښښ وکړی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Network error: please check you are online.</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>چک وکری په کرښه یی د جال تیروتنه! مهربانی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Authenticating</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تصدیق كول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Sorry: Error loading %s :</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بخښنه! تیروتنه په بارولو کښی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Download</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>رالېښل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Downloaded</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>دانلوډ شو</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>OK</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>صحیح</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Cancel</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>لغو کول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Delete</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ړنګول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Sorry!</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بخښنه!</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Error loading catalog:</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تیروتنه د اساسی لست په بارولو کښی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Loading</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بارونه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Error opening file:</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تیروتنه د دوتنه په پرانيستل کښی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Download in progress...</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>رالیښل په پرمخیون ده...</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Save to...</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>خوندي/ثبت کړی په...</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>All users</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ټول کارونکی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Only me</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>یوازی زه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>My courses</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>زما کورسونه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>On this device</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>په دی وزله کښی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Logout</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>وتل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>About</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>په اړه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Download for...</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>رالیښل د...لپاره</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Refresh</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تاندول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Download all</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>رالیښل تول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Nothing selected!</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>هیڅ تاکلی شوی نده</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Next</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Back</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>شا</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Username</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>کارن نوم</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Password</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تیرنویی/شفر</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>New password</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>نوی تېرنويى</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Phone memory</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د تیلیفون یاد</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Memory card</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د یاد کارت</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Device</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>وزله</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Register</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>نومکښنه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Phone number</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د تیلیفون شمیره</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Name</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>نوم</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Male</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>نارینه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Female</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>شځینه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Sorry!</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بخښنه!</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Could not open file.</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>دوتنه خلاص نه شو</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Settings</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>امستن/تنظیمات</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>System Language</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د سیستم/غونډال ژبه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>English</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>انګلیسی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Arabic</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>عربی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>My Resources</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>رالیښل شوی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Browse Libraries</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د منځپانګه کتنی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Choose Format:</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بڼه انتخاب وکړی:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Language</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ژبه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Advanced</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>پرمخ تللی</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Server</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>پالنګر</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Optional</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>اختياري</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Email</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ایمیل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Signup Code</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>کد</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Home</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>کور پاڼه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Add</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>زیاتول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Please enter phone number</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>په مهربانۍ سره د ټېلفون شمېره ننباسئ</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Phone</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ټېلفون</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Tablet</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>تبلټ</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Please enter name</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>په مهربانۍ سره نوم ننباسئ</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Attendance</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>حاضري</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Processing</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بهیرونګ</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Classes</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>ټولګي</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Exams</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>آزموینې</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Reports</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>راپورونه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Account</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>حساب</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Forgot password</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>له سیسټم څخه وتل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Connection</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>اتصال</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Notifications</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>اعلان</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>General Connection</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>عمومي اتصال</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Account</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>حساب</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Data usage</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د معلوماتو کارونه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Modify</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بدلول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Open</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>پرانیستل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Waiting for sender</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د استونکي په انتظار</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>You can share this app offline. On the device that you want to share with: \n1.</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>کولای شئ دا اپلکېشن په آنلاین توګه شریک کړئ.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Open Settings &gt; Bluetooth Settings.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>\n2. Make sure that the device is visible.</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>هغه آله چې تاسو یې غواړئ د هغې په واسطه یې شریک کړئ:\n تنظیمات پرانیسئ &lt; د بلوتوث تنظیمات\n ډاډ ترلاسه کړئ چې آله د لیدو وړ ده.\n</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Preparing</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>چمتو کول</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Login successful</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بریالی ننوتل</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Registration successful</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>بریالۍ نوم لیکنه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
+      <tuv lang="EN-US">
         <seg>1.</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
-        <seg>On the other device, open the app, and select receive from the top right menu. \n2.</seg>
+      <tuv lang="EN-US">
+        <seg>10pt</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>په بلې آله کې، اپلکېشن پرانیسئ، د مینو پورته ښي اړخه څخه د ترلاسه کول وټاکئ.\n د لاندې لیسټ څخه بله آله انتخاب کړئ:</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Select the other device from the list below:</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234438Z" creationid="GMH" creationdate="20190711T234438Z">
+        <seg>10د متن اندازه </seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Cancel invite</seg>
+      <tuv lang="EN-US">
+        <seg>12pt</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د بلني لغوه</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Inviting</seg>
-      </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>د بلنې په حال کې</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234456Z" creationid="GMH" creationdate="20190711T234456Z">
+        <seg>12د متن اندازه </seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
-        <seg>This field is required</seg>
+      <tuv lang="EN-US">
+        <seg>14pt</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>دا برخه لازمه ده</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234504Z" creationid="GMH" creationdate="20190711T234504Z">
+        <seg>14د متن اندازه </seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
+      <tuv lang="EN-US">
+        <seg>18pt</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234513Z" creationid="GMH" creationdate="20190711T234513Z">
+        <seg>18د متن اندازه </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>24pt</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234524Z" creationid="GMH" creationdate="20190711T234524Z">
+        <seg>24د متن اندازه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>36pt</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234529Z" creationid="GMH" creationdate="20190711T234529Z">
+        <seg>36د متن اندازه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>8pt</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234423Z" creationid="GMH" creationdate="20190711T234423Z">
+        <seg>8د متن اندازه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b&gt;Download&lt;/b&gt; total of %1$s items, they will use total of %2$s on your device storage.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233422Z" creationid="GMH" creationdate="20190711T233422Z">
+        <seg>&lt;b&gt;ښکته کول&lt;/b&gt; ټولټال %1$s توکي, ټولټال دومره ګټه به واخلی %2$s ستاسو د وزلې په حافظه کې.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b&gt;Downloaded&lt;/b&gt; total of %1$s items, which are using about %2$s of your device storage.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233714Z" creationid="GMH" creationdate="20190711T233714Z">
+        <seg>&lt;b&gt;ښکته شو&lt;/b&gt; ټوولټال %1$s توکي, چې تقریباْ دومره ګټه اخلی %2$s ستاسو د وزلې په حافظه کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>&lt;b&gt;Downloading&lt;/b&gt; total of %1$s items, which will be using total of %2$s on your device storage.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233544Z" creationid="GMH" creationdate="20190711T233544Z">
+        <seg>&lt;b&gt;د ښکته کولو په حال کې&lt;/b&gt; ټولټال %1$s توکي, چې ټولټال دومره ګټه به واخلی %2$s ستاسو د وزلې په حافظه کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>About</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په اړه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Accept</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
         <seg>منل</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
+      <tuv lang="EN-US">
+        <seg>Account</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>حساب</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add another reminder</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215634Z" creationid="GMH" creationdate="20190711T215634Z">
+        <seg>یو بل په یاد راوړل زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add content</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235921Z" creationid="GMH" creationdate="20190711T235921Z">
+        <seg>محتویات زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add item</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210328Z" creationid="GMH" creationdate="20190711T210328Z">
+        <seg>د توکی زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add new</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235839Z" creationid="GMH" creationdate="20190711T235839Z">
+        <seg>نوی زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234919Z" creationid="GMH" creationdate="20190711T234919Z">
+        <seg>د پاڼې زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add payment</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211042Z" creationid="GMH" creationdate="20190711T211042Z">
+        <seg>د اداینې زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add reminder</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215616Z" creationid="GMH" creationdate="20190711T215616Z">
+        <seg>په یاد راوړلو زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add signature</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215539Z" creationid="GMH" creationdate="20190711T215539Z">
+        <seg>د لاسليک زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add subcategory</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215003Z" creationid="GMH" creationdate="20190711T215003Z">
+        <seg>د فرعی کټګوری زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add tag</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223326Z" creationid="GMH" creationdate="20190711T223326Z">
+        <seg>د نښې زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Add to dashboard</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223733Z" creationid="GMH" creationdate="20190711T223733Z">
+        <seg>په رپورټ کې زیاتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Advanced</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پرمخ تللی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Afs</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211626Z" creationid="GMH" creationdate="20190711T211626Z">
+        <seg>افغانی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223252Z" creationid="GMH" creationdate="20190711T223252Z">
+        <seg>ټول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All sales</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205343Z" creationid="GMH" creationdate="20190711T205343Z">
+        <seg>ټول خرڅلاوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>All users</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټول کارونکی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Also available in</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232701Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>همدارنګه د لاسرسي وړ دی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>App interface language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231135Z" creationid="GMH" creationdate="20190711T231135Z">
+        <seg>د اپلیکیشن ژبه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Arabic</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>عربی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Are you sure you want to logout?</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213244Z" creationid="GMH" creationdate="20190711T213244Z">
+        <seg>آیا تاسو غواړئ چې ووځئ؟</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Attendance</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>حاضري</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Authenticating</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تصدیق كول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Author</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234142Z" creationid="GMH" creationdate="20190711T234142Z">
+        <seg>لیکوال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Available nearby</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234027Z" creationid="GMH" creationdate="20190711T234027Z">
+        <seg>نژدې موجود</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Available on cloud</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234037Z" creationid="GMH" creationdate="20190711T234037Z">
+        <seg>په کلوډ کې موجود</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Back</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>شا</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Balance due</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211445Z" creationid="GMH" creationdate="20190711T211445Z">
+        <seg>د غوښتنې وړ بیلانس</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Blank page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234805Z" creationid="GMH" creationdate="20190711T234729Z">
+        <seg>خالی پاڼه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Bold</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235350Z" creationid="GMH" creationdate="20190711T235350Z">
+        <seg>بولډ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Browse Libraries</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230014Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د منځپانګه/ثبت شوی شیانو کتنی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By category</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210543Z" creationid="GMH" creationdate="20190711T210543Z">
+        <seg>د کټګوری په اساس</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>By collection</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211556Z" creationid="GMH" creationdate="20190711T211556Z">
+        <seg>د ټولګی په اساس</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>CANCEL ALL</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233744Z" creationid="GMH" creationdate="20190711T233744Z">
+        <seg>ټول لغوه کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Calculating...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233149Z" creationid="GMH" creationdate="20190711T233149Z">
+        <seg>د حسابولو په جریان کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Camera</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213916Z" creationid="GMH" creationdate="20190711T213916Z">
+        <seg>کامره</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Camera Permission Required</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235735Z" creationid="GMH" creationdate="20190711T235735Z">
+        <seg>د کامرې اجازې ته اړتیا شته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cancel</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>لغو کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cancel download</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233754Z" creationid="GMH" creationdate="20190711T233754Z">
+        <seg>د ښکته کولو لغوه کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cancel invite</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232429Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د بلني لغوه کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Cannot update</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232618Z" creationid="GMH" creationdate="20190711T232618Z">
+        <seg>اوسمهالول ترسره کیدای نشو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Catalog</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232549Z" creationid="GMH" creationdate="20190711T232549Z">
+        <seg>کټلاګ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Catalog added to catalog</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214503Z" creationid="GMH" creationdate="20190711T214503Z">
+        <seg>کټلاګ په کټلاګ کې اضافه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Categories</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214413Z" creationid="GMH" creationdate="20190711T214413Z">
+        <seg>کټګوریانې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214949Z" creationid="GMH" creationdate="20190711T214949Z">
+        <seg>کټګوری</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Category deleted from catalog</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215037Z" creationid="GMH" creationdate="20190711T215037Z">
+        <seg>کټګوری له کتلاګ څخه ړنګ شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Center</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235401Z" creationid="GMH" creationdate="20190711T235401Z">
+        <seg>مینځ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213015Z" creationid="GMH" creationdate="20190711T213015Z">
+        <seg>د پټ نوم بدلول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Change photo</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214329Z" creationid="GMH" creationdate="20190711T214329Z">
+        <seg>د تصویر بدلول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose Format:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230027Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بڼه اغوره کړئ:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose file</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234607Z" creationid="GMH" creationdate="20190711T234607Z">
+        <seg>له فایل څخه غوره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213124Z" creationid="GMH" creationdate="20190711T213124Z">
+        <seg>د ژبې غوره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Choose photo</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214348Z" creationid="GMH" creationdate="20190711T214348Z">
+        <seg>تصویر غوره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Classes</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټولګي</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clear</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215343Z" creationid="GMH" creationdate="20190711T215343Z">
+        <seg>پاکول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Clear History</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234044Z" creationid="GMH" creationdate="20190711T234044Z">
+        <seg>د تاریخچې پاکول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Click</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234733Z" creationid="GMH" creationdate="20190711T234733Z">
+        <seg>کلیک</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Closed</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232559Z" creationid="GMH" creationdate="20190711T232559Z">
+        <seg>بندول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Collections</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211545Z" creationid="GMH" creationdate="20190711T211545Z">
+        <seg>ټولګه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Confirm</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225138Z" creationid="GMH" creationdate="20190711T225114Z">
+        <seg>تائید</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Confirm fingerprint to continue</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214717Z" creationid="GMH" creationdate="20190711T214717Z">
+        <seg>د ادامه ورکولو لپاره د ګوتې نښه تائیدول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Confirm logout</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213157Z" creationid="GMH" creationdate="20190711T213157Z">
+        <seg>د وتل تائیدول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Confirm new password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213107Z" creationid="GMH" creationdate="20190711T213107Z">
+        <seg>د نوی پټ نوم تائیدول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Confirm password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225701Z" creationid="GMH" creationdate="20190711T225701Z">
+        <seg>د پټ نوم تائیدول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Connection</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>اتصال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>ContentEntry Not Found</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235041Z" creationid="GMH" creationdate="20190711T235041Z">
+        <seg>محتویات و نه موندل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continue</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233130Z" creationid="GMH" creationdate="20190711T233130Z">
+        <seg>ادامه ورکول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Continue download</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233124Z" creationid="GMH" creationdate="20190711T233124Z">
+        <seg>ښکته کولو ته ادامه ورکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Could not open file.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225904Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>فایل خلاص نه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Courses</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211637Z" creationid="GMH" creationdate="20190711T211637Z">
+        <seg>کورسونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a new item</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214406Z" creationid="GMH" creationdate="20190711T214406Z">
+        <seg>د نوی توکی جوړول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create a new subcategory</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214021Z" creationid="GMH" creationdate="20190711T214021Z">
+        <seg>د نوی فرعی کټګوری جوړول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create new content</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235906Z" creationid="GMH" creationdate="20190711T235906Z">
+        <seg>د نوی محتویات ایجادول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create new folder</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235915Z" creationid="GMH" creationdate="20190711T235915Z">
+        <seg>د نوی فولډر جوړول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Create report</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223404Z" creationid="GMH" creationdate="20190711T223404Z">
+        <seg>ریپورټ جوړول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Current password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213021Z" creationid="GMH" creationdate="20190711T213021Z">
+        <seg>اوسنی پټ نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dari</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213129Z" creationid="GMH" creationdate="20190711T213129Z">
+        <seg>دری</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Dashboard</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220426Z" creationid="GMH" creationdate="20190711T220426Z">
+        <seg>راپورځای</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Data usage</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د معلوماتو کارونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Date range</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215504Z" creationid="GMH" creationdate="20190711T215504Z">
+        <seg>د نیټې لړۍ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Decline</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
         <seg>رد کول</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
+      <tuv lang="EN-US">
+        <seg>Delete</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ړنګول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delivered</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210913Z" creationid="GMH" creationdate="20190711T210913Z">
+        <seg>وسپارل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Delivery signature</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215418Z" creationid="GMH" creationdate="20190711T215418Z">
+        <seg>د سپارلو لاسلیک</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214139Z" creationid="GMH" creationdate="20190711T214139Z">
+        <seg>تشریح</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description (Dari)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214236Z" creationid="GMH" creationdate="20190711T214236Z">
+        <seg>تشریح (دری)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description (English)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214228Z" creationid="GMH" creationdate="20190711T214228Z">
+        <seg>تشریح (انګلیسی)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Description (Pahto)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214245Z" creationid="GMH" creationdate="20190711T214245Z">
+        <seg>تشریح (پښتو)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Device</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>وزله</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Directionality</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235117Z" creationid="GMH" creationdate="20190711T235117Z">
+        <seg>لوریتوب</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Discount:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190714T113546Z" creationid="GMH" creationdate="20190711T211149Z">
+        <seg>تخفیف</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Don't show this next time</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232118Z" creationid="GMH" creationdate="20190711T232118Z">
+        <seg>دا پیغام بل ځلې مه ښکاره کوه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Done</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235923Z" creationid="GMH" creationdate="20190711T235923Z">
+        <seg>وشو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224804Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ښکته کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download all</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225556Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د ټولو ښکته کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download educational videos, articles and interactive exercises for later use.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232840Z" creationid="GMH" creationdate="20190711T232840Z">
+        <seg>روزنیز ویډیوګانې، مقالې او محاوره يي تمرینونه د وروسته کارونې په موخه ښکته کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download for...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225536Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ښکته کول د...لپاره</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download in another language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231431Z" creationid="GMH" creationdate="20190711T231431Z">
+        <seg>په بله ژبه ښکته/ډانلوډ کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Download in progress...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225454Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ښکته کول په جریان کې ده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloaded</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224817Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>شکته شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231531Z" creationid="GMH" creationdate="20190711T231531Z">
+        <seg>د ښکته کولو په حال کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Downloading %1$s of %2$s</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233735Z" creationid="GMH" creationdate="20190711T233735Z">
+        <seg>د ښکته کولو په حال کې %1$s د  %2$s</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Due</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211713Z" creationid="GMH" creationdate="20190711T211713Z">
+        <seg>د غوښتنی وړ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Due in</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215938Z" creationid="GMH" creationdate="20190711T215938Z">
+        <seg>د غوښتنې وړ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Due today is sale</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215901Z" creationid="GMH" creationdate="20190711T215901Z">
+        <seg>نن د خرڅلا غوښتنه ده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213849Z" creationid="GMH" creationdate="20190711T213849Z">
+        <seg>سمون</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Email</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ایمیل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Enable supernode</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231317Z" creationid="GMH" creationdate="20190711T231317Z">
+        <seg>د سوپرنوډ فعالول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>English</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>انګلیسی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تېروتنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error loading catalog:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225326Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د کتلاګ په بارولو کې تیروتنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error opening file:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225422Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د فایل په پرانيستل کښې تیروتنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error registering new user:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224410Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>   د نوی کارونکی په راجستر کولو کې تیروتنه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error while saving, try again</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190714T113740Z" creationid="GMH" creationdate="20190712T000603Z">
+        <seg> د ثبتولو په وخت کې تیروتنه وشو، بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Error: unsupported content type</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232644Z" creationid="GMH" creationdate="20190711T232644Z">
+        <seg>تیروتنه: د محتوا ډول د ملاتړ وړ نه دی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Exams</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>آزموینې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Failed</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231559Z" creationid="GMH" creationdate="20190711T231559Z">
+        <seg>ناکامه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Failed to load the page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000331Z" creationid="GMH" creationdate="20190712T000331Z">
+        <seg>د پاڼې بارول ناکامه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Failed to update document</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000346Z" creationid="GMH" creationdate="20190712T000346Z">
+        <seg>د لاسوند اوسمهالول ناکامه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Female</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>شځینه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File Not Found</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234218Z" creationid="GMH" creationdate="20190711T234218Z">
+        <seg>فایل و نه موندل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File permissions required</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233847Z" creationid="GMH" creationdate="20190711T233847Z">
+        <seg>د فایل اجازې ته اړتیا شته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>File to be imported is not selected, try again</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000139Z" creationid="GMH" creationdate="20190712T000139Z">
+        <seg>هغه فایل چې وارد شی غوره شوی نه دی، بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fill in the blanks</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234324Z" creationid="GMH" creationdate="20190711T234324Z">
+        <seg>خالی ځایونه ډک کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fill out required fields and try again</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000053Z" creationid="GMH" creationdate="20190712T000053Z">
+        <seg>اړینې ځایونه ډک کړئ او بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Filter</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215430Z" creationid="GMH" creationdate="20190711T215430Z">
+        <seg>فلتر</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Fingerprint authentication</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215147Z" creationid="GMH" creationdate="20190711T215147Z">
+        <seg>د ګوتې نښې اعتبار معلومول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>First name</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225725Z" creationid="GMH" creationdate="20190711T225725Z">
+        <seg>لومړی نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Folder was successfully updated</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000220Z" creationid="GMH" creationdate="20190712T000220Z">
+        <seg>فولډر په بریا سره اوسمهال شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Font size</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235357Z" creationid="GMH" creationdate="20190711T235357Z">
+        <seg>د متن اندازه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Forgot password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230950Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پټ نوم مو هیر شوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215512Z" creationid="GMH" creationdate="20190711T215512Z">
+        <seg>له</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From camera</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234556Z" creationid="GMH" creationdate="20190711T234556Z">
+        <seg>له کامرې څخه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>From device</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234601Z" creationid="GMH" creationdate="20190711T234601Z">
+        <seg>له وزلې څخه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Gallery</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213925Z" creationid="GMH" creationdate="20190711T213925Z">
+        <seg>انځورغالى</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>General Connection</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>عمومي اتصال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get Started</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232707Z" creationid="GMH" creationdate="20190711T232707Z">
+        <seg>پیل کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Get app</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234059Z" creationid="GMH" creationdate="20190711T234059Z">
+        <seg>اپلیکیشن ترلاسه کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Goldozi</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205056Z" creationid="GMH" creationdate="20190711T205056Z">
+        <seg>ګلدوزی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Grantee</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223623Z" creationid="GMH" creationdate="20190711T223623Z">
+        <seg>مستفید کیدونکی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Group by</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223520Z" creationid="GMH" creationdate="20190711T223520Z">
+        <seg>ډله بندی کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Highest price</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215808Z" creationid="GMH" creationdate="20190711T215808Z">
+        <seg>ترټولو جګه بیه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Home</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کور پاڼه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I have received order</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215325Z" creationid="GMH" creationdate="20190711T215325Z">
+        <seg>ما فرمایش ترلاسه کړی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>I have received this order</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215337Z" creationid="GMH" creationdate="20190711T215337Z">
+        <seg>ما دا فرمایش ترلاسه کړی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Import from file</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235850Z" creationid="GMH" creationdate="20190711T235850Z">
+        <seg>له فایل څخه واردول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Importing, please wait</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000527Z" creationid="GMH" creationdate="20190712T000527Z">
+        <seg>و واردولوو په حال کې، هیله ده انتظار وباسئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>In progress</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231519Z" creationid="GMH" creationdate="20190711T231519Z">
+        <seg>په جریان کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Indent</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235150Z" creationid="GMH" creationdate="20190711T235150Z">
+        <seg>سرتشه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234543Z" creationid="GMH" creationdate="20190711T234543Z">
+        <seg>ورننوېستل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Insert Link</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235717Z" creationid="GMH" creationdate="20190711T235717Z">
+        <seg>پیوند دننه کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inventory</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210313Z" creationid="GMH" creationdate="20190711T210313Z">
+        <seg>موجودی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Inviting</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د بلنې په حال کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Italic</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235338Z" creationid="GMH" creationdate="20190711T235338Z">
+        <seg>رېوند</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Item</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214553Z" creationid="GMH" creationdate="20190711T214553Z">
+        <seg>توک</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Item added to catalog</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214445Z" creationid="GMH" creationdate="20190711T214445Z">
+        <seg>توکی په کټلاګ کې اضافه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Item deleted from catalog</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215024Z" creationid="GMH" creationdate="20190711T215024Z">
+        <seg>توک له کټلاګ څخه ړنګ شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Items</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210320Z" creationid="GMH" creationdate="20190711T210320Z">
+        <seg>توکی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ژبه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Last Active on App</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224112Z" creationid="GMH" creationdate="20190711T224112Z">
+        <seg>په اپلیکیشن کې وروستۍ فعالیت</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Last name</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225720Z" creationid="GMH" creationdate="20190711T225720Z">
+        <seg>وروستی نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lead Entrepreneur</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224007Z" creationid="GMH" creationdate="20190711T224007Z">
+        <seg>غوره متشبثین</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Left</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235404Z" creationid="GMH" creationdate="20190711T235404Z">
+        <seg>کیڼ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Left To Right</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234345Z" creationid="GMH" creationdate="20190711T234345Z">
+        <seg>کیڼ څخه ښی خوا ته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Libraries</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225021Z" creationid="GMH" creationdate="20190711T225021Z">
+        <seg>ثبت شوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>License</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234148Z" creationid="GMH" creationdate="20190711T234148Z">
+        <seg>لایسنس</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Link</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234328Z" creationid="GMH" creationdate="20190711T234328Z">
+        <seg>پیوند</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Link Url</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235612Z" creationid="GMH" creationdate="20190711T235612Z">
+        <seg>د انټرنټی آدرس پیوند کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Link text</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235603Z" creationid="GMH" creationdate="20190711T235603Z">
+        <seg>د متن پیوند کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Link text or url can not be empty, try again</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235702Z" creationid="GMH" creationdate="20190711T235702Z">
+        <seg>د متن یا انټرنټی آدرس پیوند کولو ځای خالی اوسیدای نه شی، بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Loading</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بارونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Location</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211631Z" creationid="GMH" creationdate="20190711T211631Z">
+        <seg>ځای </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Location permissions required</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232956Z" creationid="GMH" creationdate="20190711T232956Z">
+        <seg>د ځای مالومولو اجازې ته اړتیا شته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Login</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224232Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ننوتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Login successful</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232145Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ننوتل په بریا ترسره شوه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Logout</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>وتل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Lowest price</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215800Z" creationid="GMH" creationdate="20190711T215800Z">
+        <seg>تر ټولو کمه بیه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M&amp;E</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220438Z" creationid="GMH" creationdate="20190711T220438Z">
+        <seg>نظارت او ارزونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>M&amp;E Dashboard</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220450Z" creationid="GMH" creationdate="20190711T220450Z">
+        <seg>د نظارت او ارزونې راپورځای</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>MORE</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210458Z" creationid="GMH" creationdate="20190711T210458Z">
+        <seg>نور</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Make sure that the device is visible.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231948Z" creationid="GMH" creationdate="20190711T231948Z">
+        <seg>ځان ډاډه کړئ چې وزله د لیدو وړ دی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Male</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نارینه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Media type</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234720Z" creationid="GMH" creationdate="20190711T234720Z">
+        <seg>د رسنۍ ډول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Memory card</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225829Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د حافظې کارډ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Minimum 5 characters</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232458Z" creationid="GMH" creationdate="20190711T232458Z">
+        <seg>لږ تر لږه ۵ توري</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Modify</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بدلول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>More</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210443Z" creationid="GMH" creationdate="20190711T210443Z">
+        <seg>نور</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Most recent</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210435Z" creationid="GMH" creationdate="20190711T210435Z">
+        <seg>تر ټولو وروستی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multimedia</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234241Z" creationid="GMH" creationdate="20190711T234241Z">
+        <seg>ګڼرسنۍ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Multiple choice</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234315Z" creationid="GMH" creationdate="20190711T234315Z">
+        <seg>څو ځوابه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>My Resources</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225953Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>زما منابع</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>My courses</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>زما کورسونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Name</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Network error: please check you are online.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>چک وکری په کرښه یی د جال تیروتنه! مهربانی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New folder was successfully added</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000204Z" creationid="GMH" creationdate="20190712T000204Z">
+        <seg>نوی فولډر په بریا سره اضافه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234800Z" creationid="GMH" creationdate="20190711T234800Z">
+        <seg>نوې پاڼه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>New password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225752Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نوی پټ نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Next</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No Internet?</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232715Z" creationid="GMH" creationdate="20190711T232715Z">
+        <seg>انټرنټ نشته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No downloads found</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000252Z" creationid="GMH" creationdate="20190712T000252Z">
+        <seg>هیڅ ښکته شوی و نه موندل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No folders found</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000259Z" creationid="GMH" creationdate="20190712T000231Z">
+        <seg>هیڅ فولډر و نه موندل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>No problem.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232726Z" creationid="GMH" creationdate="20190711T232726Z">
+        <seg>ستونزه نشته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Not delivered</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213453Z" creationid="GMH" creationdate="20190711T213453Z">
+        <seg>و نه سپارل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Nothing selected!</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225602Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>هیڅ شی تاکلی شوی نده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Notifications</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>اعلان</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>OK</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225056Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>هوکی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>OK, got it!</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232055Z" creationid="GMH" creationdate="20190711T232055Z">
+        <seg>هوکی، پوه شوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On the device that you want to share with: \n1.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231814Z" creationid="GMH" creationdate="20190711T231814Z">
+        <seg>په هغه وزله کې چې تاسو غواړئ ورسره یې شریک کړئ: \n1.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On the other device, open the app, and select receive from the top right menu.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232342Z" creationid="GMH" creationdate="20190711T232305Z">
+        <seg>په بله وزله کې، اپلیکیشن خلاص کړئ، او په پورتنۍ برخه کې ښی خواته لاسته راوړل غوره کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On the other device, open the app, and select receive from the top right menu. \n2.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په بلې آله کې، اپلکېشن پرانیسئ، د مینو پورته ښي اړخه څخه د ترلاسه کول وټاکئ.\n د لاندې لیسټ څخه بله آله انتخاب کړئ:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>On this device</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په دی وزله کښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Only me</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>یوازی زه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پرانیستل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Open Settings &gt; Bluetooth Settings.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231901Z">
+        <seg>خلاص کړئ: سټنګ&gt; بلوټوټ سټنګ </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Optional</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>اختياري</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Order due date</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213440Z" creationid="GMH" creationdate="20190711T213440Z">
+        <seg>د فرمایش ټاکلی نیټه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Order notes</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211500Z" creationid="GMH" creationdate="20190711T211500Z">
+        <seg>د فرمایش یاددښتونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Order total:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211101Z" creationid="GMH" creationdate="20190711T211101Z">
+        <seg>د فرمایش ټولټال:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ordered List</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235247Z" creationid="GMH" creationdate="20190711T235247Z">
+        <seg>منم شوی لیسټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Outdent</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235228Z" creationid="GMH" creationdate="20190711T235228Z">
+        <seg>د لومړۍ کرخې شاته وتل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PARAGRAPH</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234334Z" creationid="GMH" creationdate="20190711T234334Z">
+        <seg>پاراګراف</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>PAUSE ALL</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233800Z" creationid="GMH" creationdate="20190711T233800Z">
+        <seg>ټول ځنډول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pages</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235141Z" creationid="GMH" creationdate="20190711T235141Z">
+        <seg>پاڼې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Parent categories</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214324Z" creationid="GMH" creationdate="20190711T214324Z">
+        <seg>د مور او پلار کتګوریانې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pashto</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213133Z" creationid="GMH" creationdate="20190711T213133Z">
+        <seg>پښتو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Passed</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231504Z" creationid="GMH" creationdate="20190711T231504Z">
+        <seg>بریالی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225645Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>پټ نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Password doesn't match, try again</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232536Z" creationid="GMH" creationdate="20190711T232536Z">
+        <seg>پټ نوم سره ورته نه دي، بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Password should be at least 5 characters</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232518Z" creationid="GMH" creationdate="20190711T232518Z">
+        <seg>پټ نوم باید لږ تر لږه ۵ توري وي</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Passwords do not match.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213507Z" creationid="GMH" creationdate="20190711T213507Z">
+        <seg>پټ نوم سره ورته نه دي</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pause</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233805Z" creationid="GMH" creationdate="20190711T233805Z">
+        <seg>ځنډول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pause download</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225041Z" creationid="GMH" creationdate="20190711T225041Z">
+        <seg>په ښکته کولو کې ځنډ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Paused</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234050Z" creationid="GMH" creationdate="20190711T234050Z">
+        <seg>ځنډیدل شوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Payment amount</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213326Z" creationid="GMH" creationdate="20190711T213326Z">
+        <seg>د اداینې مقدار</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Payment date</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213332Z" creationid="GMH" creationdate="20190711T213332Z">
+        <seg>د اداینې نیټه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Payments</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213301Z" creationid="GMH" creationdate="20190711T213301Z">
+        <seg>اداینه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Payments due</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205606Z" creationid="GMH" creationdate="20190711T205606Z">
+        <seg>د غوښتنې وړ پیسې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Phone</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټېلفون</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Phone memory</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225801Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د تیلیفون حافظه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Phone number</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د تیلیفون شمیره</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Photo</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234638Z" creationid="GMH" creationdate="20190711T234638Z">
+        <seg>تصویر</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pinned</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220211Z" creationid="GMH" creationdate="20190711T220211Z">
+        <seg>وټومبل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Place your fingerprint on the fingerprint sensor to verify your identity</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215314Z" creationid="GMH" creationdate="20190711T215314Z">
+        <seg>د خپل د هویت د تصدیقولو لپاره د خپل د ګوتې نښه د ګوتې د نښې په حس کوونکی باندې کیږدئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please enter name</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230753Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په مهربانۍ سره نوم ولیکئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please enter phone number</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230730Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>په مهربانۍ سره د ټېلفون شمېره ولیکئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Please fill out all required fields</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224450Z" creationid="GMH" creationdate="20190711T224450Z">
+        <seg>مهربانی وکړئ ټولي اړینې برخې ډکي کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pre-order</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210851Z" creationid="GMH" creationdate="20190711T210851Z">
+        <seg>مخکینی فرمایش</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Pre-orders</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205400Z" creationid="GMH" creationdate="20190711T205400Z">
+        <seg>مخکینی فرمایشات</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preparing</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232005Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د چمتو کولو په حال کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preparing file...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234614Z" creationid="GMH" creationdate="20190711T234614Z">
+        <seg>د فایل آماده کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Preview</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235525Z" creationid="GMH" creationdate="20190711T235525Z">
+        <seg>ښکاره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Previewing...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234632Z" creationid="GMH" creationdate="20190711T234632Z">
+        <seg>د ښکاره کولو په حالت کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Price</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210859Z" creationid="GMH" creationdate="20190711T210859Z">
+        <seg>بیه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Price per piece</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210818Z" creationid="GMH" creationdate="20190711T210818Z">
+        <seg>د هرې برخې بیه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Processing</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230915Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د پروسس کولو په حال کی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Product name..</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215956Z" creationid="GMH" creationdate="20190711T215956Z">
+        <seg>د محصول نوم.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Product type</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223538Z" creationid="GMH" creationdate="20190711T223538Z">
+        <seg>د محصول ډول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Product types</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223348Z" creationid="GMH" creationdate="20190711T223348Z">
+        <seg>د محصول ډولونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Products</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224116Z" creationid="GMH" creationdate="20190711T224116Z">
+        <seg>محصولات</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Quantity</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210600Z" creationid="GMH" creationdate="20190711T210600Z">
+        <seg>تعداد</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Queued</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231551Z" creationid="GMH" creationdate="20190711T231551Z">
+        <seg>په کتار کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reading Level</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234204Z" creationid="GMH" creationdate="20190711T234204Z">
+        <seg>د لوستلو کچه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Receive</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231345Z" creationid="GMH" creationdate="20190711T231345Z">
+        <seg>لاسته راوړل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Record sale</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210230Z" creationid="GMH" creationdate="20190711T210230Z">
+        <seg>د خرڅلاوی ریکارډ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Record signature</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215427Z" creationid="GMH" creationdate="20190711T215427Z">
+        <seg>د لاسلیک ثبتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Redo</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235123Z" creationid="GMH" creationdate="20190711T235123Z">
+        <seg>بیاکړ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Refresh</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>تاندول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Register</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225842Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>راجسټر کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Register Now</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225742Z" creationid="GMH" creationdate="20190711T225742Z">
+        <seg>اوس ځان راجسټر کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Registering</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190714T113708Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg> راجستر کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Registration successful</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232201Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>نوم لیکنه په بریا ترسره شوه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove Link</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235725Z" creationid="GMH" creationdate="20190711T235725Z">
+        <seg>پیوند لیری کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Remove page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234951Z" creationid="GMH" creationdate="20190711T234951Z">
+        <seg>د پاڼې حذف کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Report Options</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223339Z" creationid="GMH" creationdate="20190711T223339Z">
+        <seg>د راپول ورکولو اختیارات</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Reports</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230928Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>رپورټونه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Review your courses.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212736Z" creationid="GMH" creationdate="20190711T212736Z">
+        <seg>د خپل کورسونو کتنه.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Right</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235406Z" creationid="GMH" creationdate="20190711T235406Z">
+        <seg>ښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Right To Left</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234354Z" creationid="GMH" creationdate="20190711T234354Z">
+        <seg>ښی څخه کیڼ خواته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sale Value</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224123Z" creationid="GMH" creationdate="20190711T224123Z">
+        <seg>د خرڅلا بیه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sale detail</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211732Z" creationid="GMH" creationdate="20190711T211732Z">
+        <seg>د خرڅلاوی تفصیل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sale details</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211725Z" creationid="GMH" creationdate="20190711T211725Z">
+        <seg>د خرڅلاوی تفصیلات</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sale product</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211622Z" creationid="GMH" creationdate="20190711T211622Z">
+        <seg>د محصول خرڅلاوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sale reminder</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215818Z" creationid="GMH" creationdate="20190711T215818Z">
+        <seg>د خرڅلا په یاد راوړل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sales</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205329Z" creationid="GMH" creationdate="20190711T205329Z">
+        <seg>خرڅلاوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sales Log Report</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223933Z" creationid="GMH" creationdate="20190711T223933Z">
+        <seg>د خرڅلاوو د ثبت/سجل رپورټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sales Performance Report</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223901Z" creationid="GMH" creationdate="20190711T223901Z">
+        <seg>د خرڅلاوو د کارکردګی رپورټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sales log</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223248Z" creationid="GMH" creationdate="20190711T223248Z">
+        <seg>د خرڅلاوو ثبت/سجل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sales performance</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220823Z" creationid="GMH" creationdate="20190711T220823Z">
+        <seg>د خرڅلا چلن</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sales price</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223648Z" creationid="GMH" creationdate="20190711T223648Z">
+        <seg>د خرڅلاوو بیه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210856Z" creationid="GMH" creationdate="20190711T210856Z">
+        <seg>ثبتول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Save to...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>خوندي/ثبت کړی په...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Search</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211739Z" creationid="GMH" creationdate="20190711T211739Z">
+        <seg>لټل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>See also</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231415Z" creationid="GMH" creationdate="20190711T231415Z">
+        <seg>دا هم وګورئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select file</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235946Z" creationid="GMH" creationdate="20190711T235946Z">
+        <seg>فایل غوره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232018Z" creationid="GMH" creationdate="20190711T232018Z">
+        <seg>د ژبې غوراوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select producer</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210420Z" creationid="GMH" creationdate="20190711T210420Z">
+        <seg>د تولید کوونکی انتخاب</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Select the other device from the list below:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232417Z">
+        <seg>بله وزله له لاندینی لیسټ څخه غوره کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Selected file is not supported, try another file</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000030Z" creationid="GMH" creationdate="20190712T000030Z">
+        <seg>غوره شوی فایل د ملاتړ وړ نه دی، بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Send</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231400Z" creationid="GMH" creationdate="20190711T231400Z">
+        <seg>لیږل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
         <seg>Send in zip file</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
         <seg>د زېپ په فایل کې ولېږئ</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="EN-US">
-        <seg>Also available in</seg>
+      <tuv lang="EN-US">
+        <seg>Sending</seg>
       </tuv>
-      <tuv xml:lang="PS-AF" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
-        <seg>همدارنګه د لاسترسي وړ دی</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231357Z" creationid="GMH" creationdate="20190711T231357Z">
+        <seg>د لیږلو په حالت کې</seg>
       </tuv>
     </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sent</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231349Z" creationid="GMH" creationdate="20190711T231349Z">
+        <seg>ولیږل شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Server</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230042Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>سرور</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Set title</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224143Z" creationid="GMH" creationdate="20190711T224143Z">
+        <seg>د عنوان ټاکل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Settings</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>امستن/تنظیمات</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Share</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231339Z" creationid="GMH" creationdate="20190711T231339Z">
+        <seg>شریکول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Share App</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231326Z" creationid="GMH" creationdate="20190711T231326Z">
+        <seg>د اپلیکیشن شریکول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Share content at high speed with any other user nearby.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232935Z" creationid="GMH" creationdate="20190711T232935Z">
+        <seg>محتویات په اوچت سرعت سره له بلې نژدې کاروونکی سره شریک کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Share offline</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232851Z" creationid="GMH" creationdate="20190711T232851Z">
+        <seg>آفلاین شریک کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Share via...</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231336Z" creationid="GMH" creationdate="20190711T231336Z">
+        <seg>د ... له لارې شریکول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show average</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T223531Z" creationid="GMH" creationdate="20190711T223531Z">
+        <seg>د منځنی کچې ښکاره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Show products to customers.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212103Z" creationid="GMH" creationdate="20190711T212103Z">
+        <seg>محصولات پیریدونکو ته ښکاره کړئ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sign in</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214623Z" creationid="GMH" creationdate="20190711T214623Z">
+        <seg>ننوتل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Signup Code</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230711Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کوډ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Size</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231406Z" creationid="GMH" creationdate="20190711T231406Z">
+        <seg>اندازه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sold</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210841Z" creationid="GMH" creationdate="20190711T210841Z">
+        <seg>خرڅ شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorry you can not delete this page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235016Z" creationid="GMH" creationdate="20190711T235016Z">
+        <seg>بخښنه، تاسو نه شئ کولای چې دغه پاڼه حذف کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorry!</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بخښنه!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorry, this device does not support sending files over Bluetooth.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231704Z" creationid="GMH" creationdate="20190711T231704Z">
+        <seg>بخښنه، دا وزله د بلوټوټ له لارې د فایلونو لیږلو ملاتړ نه کوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sorry: Error loading %s :</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>بخښنه! تیروتنه په بارولو کښی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Sort by</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205715Z" creationid="GMH" creationdate="20190711T205715Z">
+        <seg>د اڼل ترتیب</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Storage option</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000103Z" creationid="GMH" creationdate="20190712T000103Z">
+        <seg>د حافظې اختیار</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Strikethrough</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235258Z" creationid="GMH" creationdate="20190711T235258Z">
+        <seg>کرښول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subcategory</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214559Z" creationid="GMH" creationdate="20190711T214559Z">
+        <seg>فرعی کټګوری</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Subscript</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235519Z" creationid="GMH" creationdate="20190711T235519Z">
+        <seg>فرعی سکریپټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Superscript</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235505Z" creationid="GMH" creationdate="20190711T235505Z">
+        <seg>لوی سکرپټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Support for adding an image is coming soon</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000440Z" creationid="GMH" creationdate="20190712T000440Z">
+        <seg>د تصویر د اضافه کولو ملاتړ به ډیر ژر فعاله شی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Supported files: &lt;b&gt;H5P, Epub, TinCan (XAPI) Zip&lt;/b&gt;</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000503Z" creationid="GMH" creationdate="20190712T000503Z">
+        <seg>ملاتړ شوی فایلونه: &lt;b&gt;H5P, Epub, TinCan (XAPI) Zip&lt;/b&gt;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Swipe to learn more.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212000Z" creationid="GMH" creationdate="20190711T212000Z">
+        <seg>په دې هکله د زده ګړې لپاره د سکرین په مخ کش کړئ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Syncing</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213844Z" creationid="GMH" creationdate="20190711T213844Z">
+        <seg>هممهالی کیږی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>System Language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225923Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د سیسټم ژبه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>TEXT</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234331Z" creationid="GMH" creationdate="20190711T234331Z">
+        <seg>متن</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tablet</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T230736Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>ټبلټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Tags</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220036Z" creationid="GMH" creationdate="20190711T220036Z">
+        <seg>نښي</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Take photo</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214334Z" creationid="GMH" creationdate="20190711T214334Z">
+        <seg>تصویر اخیستل</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Text formatting</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235130Z" creationid="GMH" creationdate="20190711T235130Z">
+        <seg>د متن بڼه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This app requires camera permission to take photos and record videos</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235831Z" creationid="GMH" creationdate="20190711T235831Z">
+        <seg>دا اپلیکیشن د کامرې اجازې ته اړتیا لری ترڅو تصویرونه واخلی او ویډیوګانې ثبت کړی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This app requires file permissions on the SD card to download and save content</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234017Z" creationid="GMH" creationdate="20190711T234017Z">
+        <seg>دا اپلیکیشن د حافظې په کارټ د فایل اجازې ته اړتیا لری تر څو محتویات ښکته کړی او ثبت یې کړی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This app requires location permissions to enable you to download and share content offline.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233109Z" creationid="GMH" creationdate="20190711T233109Z">
+        <seg>دا اپلیکیشن د ځای مالومولو اجازې ته اړتیا لرې ترڅو تاسو وکولای شئ محتویات په آفلاین توګه ښکته او شریک کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This feature is coming soon.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212925Z" creationid="GMH" creationdate="20190711T212925Z">
+        <seg>دا بڼه، ډیر ژر... .</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>This field is required</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>دا برخه لازمه ده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Title</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214050Z" creationid="GMH" creationdate="20190711T214050Z">
+        <seg>عنوان</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Title (Dari)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214205Z" creationid="GMH" creationdate="20190711T214205Z">
+        <seg>عنوان (دری)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Title (English)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214157Z" creationid="GMH" creationdate="20190711T214157Z">
+        <seg>عنوان (انګلیسی) </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Title (Pashto)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214217Z" creationid="GMH" creationdate="20190711T214217Z">
+        <seg>عنوان (پښتو)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>To</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215726Z" creationid="GMH" creationdate="20190711T215726Z">
+        <seg>ته</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Top LEs</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220522Z" creationid="GMH" creationdate="20190711T220522Z">
+        <seg>ترټولو غوره متشبثین</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Top LEs Report</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224022Z" creationid="GMH" creationdate="20190711T223954Z">
+        <seg>د غوره متشبثینو رپورټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Total</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210828Z" creationid="GMH" creationdate="20190711T210828Z">
+        <seg>ټولټال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Total Sales</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T220501Z" creationid="GMH" creationdate="20190711T220501Z">
+        <seg>د خرڅلا ټولټال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Total mobile data usage</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231054Z" creationid="GMH" creationdate="20190711T231054Z">
+        <seg>د موبایل د انټرنټ د استفادې ټولټال</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Total:</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210833Z" creationid="GMH" creationdate="20190711T210833Z">
+        <seg>ټولټال:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Touch sensor</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214923Z" creationid="GMH" creationdate="20190711T214923Z">
+        <seg> حس کوونکی لمس کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Track your stock and sales.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212637Z" creationid="GMH" creationdate="20190711T212637Z">
+        <seg>د خپل ذخیره او خرڅلاوو تعقیبول.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try again</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232439Z" creationid="GMH" creationdate="20190711T232439Z">
+        <seg>بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Try again.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213513Z" creationid="GMH" creationdate="20190711T213513Z">
+        <seg>بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unable to open that image</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214004Z" creationid="GMH" creationdate="20190711T214004Z">
+        <seg>د دې انځول خلاصول ترسره نه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unable to reset password.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T213714Z" creationid="GMH" creationdate="20190711T213714Z">
+        <seg>د پټ نوم بیا جوړل ترسره نه شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Underline</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235305Z" creationid="GMH" creationdate="20190711T235305Z">
+        <seg>لاندې خط</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Undo</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214543Z" creationid="GMH" creationdate="20190711T214543Z">
+        <seg>ناکړ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Unordered List</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235239Z" creationid="GMH" creationdate="20190711T235239Z">
+        <seg>نا منظم شوی لیسټ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Untitled document</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234907Z" creationid="GMH" creationdate="20190711T234907Z">
+        <seg>ناسرلیکی لاسوند</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Untitled page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234848Z" creationid="GMH" creationdate="20190711T234848Z">
+        <seg>ناسرلیکی پاڼه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232544Z" creationid="GMH" creationdate="20190711T232544Z">
+        <seg>اوسمهالول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update document</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234939Z" creationid="GMH" creationdate="20190711T234939Z">
+        <seg>د لاسوند اوسمهالول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update file</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T235953Z" creationid="GMH" creationdate="20190711T235953Z">
+        <seg>فایل غوره کول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Update page</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234928Z" creationid="GMH" creationdate="20190711T234928Z">
+        <seg>د پاڼې اوسمهالول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Updated successfully</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000401Z" creationid="GMH" creationdate="20190712T000401Z">
+        <seg>په بریالی توګه اوسمهاله شو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use %1$s - %2$s free</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233839Z" creationid="GMH" creationdate="20190711T233839Z">
+        <seg>ګټه اخیستل%1$s - %2$s بیکاره</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use device language</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T232030Z" creationid="GMH" creationdate="20190711T232030Z">
+        <seg>د وزلې ژبې کارول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Use password</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214726Z" creationid="GMH" creationdate="20190711T214726Z">
+        <seg>د پټ نوم کارول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Username</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T225627Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د کارونې نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Ustad Mobile</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190714T113700Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg> ‫أستاد موبايل‬</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Value</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215508Z" creationid="GMH" creationdate="20190711T215508Z">
+        <seg>ارزښت</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Video</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234641Z" creationid="GMH" creationdate="20190711T234641Z">
+        <seg>ویډیو</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Waiting</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231541Z" creationid="GMH" creationdate="20190711T231541Z">
+        <seg>د انتظار کولو په حال کې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Waiting for sender</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د استونکي په انتظار</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Welcome to Goldozi.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211748Z" creationid="GMH" creationdate="20190711T211748Z">
+        <seg>ګلدوزی ته ښه راغلاست.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>What media type would you like to capture?</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234715Z" creationid="GMH" creationdate="20190711T234715Z">
+        <seg>کوم رسنۍ ډول غواړئ چې واخلئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>WiFi only</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T233138Z" creationid="GMH" creationdate="20190711T233138Z">
+        <seg>یوازی وایفای</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wrong email address</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224522Z" creationid="GMH" creationdate="20190711T224522Z">
+        <seg>بریشنایی پته سمه نه ده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>Wrong username/password: try again.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T224616Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>د کاروونکی نوم/ پټ نوم سمه نه ده: بیا هڅه وکړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can share this app offline.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T231737Z" creationid="GMH" creationdate="20190711T231737Z">
+        <seg>تاسو کولای شئ دا اپلیکیشن آفلاین شریک کړئ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You can share this app offline. On the device that you want to share with: \n1.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>کولای شئ دا اپلکېشن په آنلاین توګه شریک کړئ.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>You have successfully imported a file</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190712T000010Z" creationid="GMH" creationdate="20190712T000010Z">
+        <seg>تاسو په بریا سره یو فایل وارد کړ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>\n2. Make sure that the device is visible.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="OmegaT Aligner" changedate="20190707T113039Z" creationid="OmegaT Aligner" creationdate="20190707T113039Z">
+        <seg>هغه آله چې تاسو یې غواړئ د هغې په واسطه یې شریک کړئ:\n تنظیمات پرانیسئ &lt; د بلوتوث تنظیمات\n ډاډ ترلاسه کړئ چې آله د لیدو وړ ده.\n</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>amount</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210116Z" creationid="GMH" creationdate="20190711T210116Z">
+        <seg>مقدار</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>date (asc)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214944Z" creationid="GMH" creationdate="20190711T214944Z">
+        <seg>نیټه(asc)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>date (desc)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214940Z" creationid="GMH" creationdate="20190711T214940Z">
+        <seg>نیټه(desc)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>day before</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215642Z" creationid="GMH" creationdate="20190711T215642Z">
+        <seg>یوه ورځ مخکې</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>days</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215942Z" creationid="GMH" creationdate="20190711T215942Z">
+        <seg>ورځي</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>days before</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215656Z" creationid="GMH" creationdate="20190711T215656Z">
+        <seg>ورځي مخکی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>is sale</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215949Z" creationid="GMH" creationdate="20190711T215949Z">
+        <seg>خرڅلا ده</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>location</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T210135Z" creationid="GMH" creationdate="20190711T210135Z">
+        <seg>ځای </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>most used</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212755Z" creationid="GMH" creationdate="20190711T212755Z">
+        <seg>تر ټولو ډیر استفاده شوی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214927Z" creationid="GMH" creationdate="20190711T214927Z">
+        <seg>نوم</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name (asc)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212802Z" creationid="GMH" creationdate="20190711T212802Z">
+        <seg>نوم(asc)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>name (desc)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212808Z" creationid="GMH" creationdate="20190711T212808Z">
+        <seg>نوم(desc)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>payments</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T211018Z" creationid="GMH" creationdate="20190711T211018Z">
+        <seg>اداینه</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>recent</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T205814Z" creationid="GMH" creationdate="20190711T205814Z">
+        <seg>وروستی</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T215532Z" creationid="GMH" creationdate="20190711T215532Z">
+        <seg>تر</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>to start editing.</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T234748Z" creationid="GMH" creationdate="20190711T234748Z">
+        <seg>د سمون پیلول</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>total (asc)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214932Z" creationid="GMH" creationdate="20190711T214932Z">
+        <seg>ټولټال(asc)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="EN-US">
+        <seg>total (desc)</seg>
+      </tuv>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214936Z" creationid="GMH" creationdate="20190711T214936Z">
+        <seg>ټولټال(desc)</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
   </body>
 </tmx>
