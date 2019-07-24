@@ -3221,16 +3221,16 @@
       <tuv lang="EN-US">
         <seg>date (asc)</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214944Z" creationid="GMH" creationdate="20190711T214944Z">
-        <seg>نیټه(asc)</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T150028Z" creationid="GMH" creationdate="20190711T214944Z">
+        <seg>نیټه (په صعودی بڼه)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>date (desc)</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214940Z" creationid="GMH" creationdate="20190711T214940Z">
-        <seg>نیټه(desc)</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T150017Z" creationid="GMH" creationdate="20190711T214940Z">
+        <seg>نیټه (په نزولی بڼه)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3293,16 +3293,16 @@
       <tuv lang="EN-US">
         <seg>name (asc)</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212802Z" creationid="GMH" creationdate="20190711T212802Z">
-        <seg>نوم(asc)</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T145845Z" creationid="GMH" creationdate="20190711T212802Z">
+        <seg>نوم (په صعودی بنه)</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>name (desc)</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T212808Z" creationid="GMH" creationdate="20190711T212808Z">
-        <seg>نوم(desc)</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T145909Z" creationid="GMH" creationdate="20190711T212808Z">
+        <seg>نوم (په نزولی بڼه)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3341,16 +3341,16 @@
       <tuv lang="EN-US">
         <seg>total (asc)</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214932Z" creationid="GMH" creationdate="20190711T214932Z">
-        <seg>ټولټال(asc)</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T145940Z" creationid="GMH" creationdate="20190711T214932Z">
+        <seg>ټولټال (په صعودی بڼه) </seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="EN-US">
         <seg>total (desc)</seg>
       </tuv>
-      <tuv lang="PS-AF" changeid="GMH" changedate="20190711T214936Z" creationid="GMH" creationdate="20190711T214936Z">
-        <seg>ټولټال(desc)</seg>
+      <tuv lang="PS-AF" changeid="GMH" changedate="20190724T145953Z" creationid="GMH" creationdate="20190711T214936Z">
+        <seg>ټولټال (په نزولی بڼه)</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->
